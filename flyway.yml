@@ -1,0 +1,6 @@
+flyway:
+  user: root
+  password: HrisPassword
+  schemas: imdb-1
+  url: jdbc:mysql://localhost:3306/imdb-1
+  locations: filesystem:db/migration
